@@ -45,7 +45,6 @@ async function forCastView(city){
     let forCast=document.getElementById("forCast")
     let res= await fetch( `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${APIkey}&units=metric`)
     let data=await res.json()
-    console.log(data)
     forCast.innerHTML=""
    forCastData= data.list.filter((file,index)=>index%8===0)
 
