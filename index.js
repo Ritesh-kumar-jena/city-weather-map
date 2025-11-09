@@ -10,7 +10,6 @@ async function weather(){
         document.getElementById("name").style.display="none"
         let res=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIkey}`)
         let data=await res.json()
-        console.log(data)
         let iconId = data.weather[0].icon;
     let iconUrl = `https://openweathermap.org/img/wn/${iconId}.png`;
     document.getElementById("cityName").innerText=data.name
