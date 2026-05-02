@@ -4,7 +4,7 @@ City Weather Map is a simple and interactive weather forecasting web application
 
 ## 🔗 Deployed Link
 
-👉 [Live Demo](https://city-weather-map-by-ritesh.netlify.app/)
+👉 [Live Demo](https://city-weather-app-by-ritesh.netlify.app/)
 
 
 ## Screenshot
